@@ -4,13 +4,9 @@ import 'simplelightbox/dist/simple-lightbox.min.css';
 import { galleryItems } from './gallery-items';
 // Change code below this line
 
-// console.log(galleryItems);
-
 const lightbox = new SimpleLightbox('.gallery a', {
   /* options */
 });
-
-//////////////Код из д.з №7////////////////////
 
 const ulListEl = document.querySelector('.gallery');
 const addMarkup = createGalleryMarkup(galleryItems);
